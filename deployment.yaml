@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: spring-test-app 
-          image: spring-boot-test # Image that will be used to containers in the cluster
+          image: alkaifspringboot:opeyemi_V5 # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080 # 
